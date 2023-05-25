@@ -6,7 +6,7 @@ title: 'An example conference paper'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
+  
 
 # Author notes (optional)
 author_notes:
@@ -14,7 +14,7 @@ author_notes:
   - 'Equal contribution'
 
 date: '2013-07-01T00:00:00Z'
-doi: ''
+doi: '1234'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'
@@ -45,6 +45,7 @@ featured: true
 #   url: http://example.org
 
 url_pdf: ''
+url_doi: ''
 url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 url_poster: ''

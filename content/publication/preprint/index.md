@@ -3,7 +3,7 @@ title: "An example preprint / working paper"
 authors:
 - admin
 date: "2019-04-07T00:00:00Z"
-doi: ""
+doi: "123"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -38,6 +38,7 @@ url_project: ''
 url_slides: ''
 url_source: '#'
 url_video: '#'
+url_doi: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
