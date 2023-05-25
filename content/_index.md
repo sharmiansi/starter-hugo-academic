@@ -30,9 +30,9 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
+        - name: Research
+          tag: Research
+        - name: Workshop
           tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -42,21 +42,21 @@ sections:
       flip_alt_rows: false
 
  
-  - block: collection
+  # - block: collection
    
-    content:
-      title: Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+   # content:
+   #   title: Publications
+   #   text: |-
+   #     {{% callout note %}}
+   #     Quickly discover relevant content by [filtering publications](./publication/).
+   #     {{% /callout %}}
+   #   filters:
+   #     folders:
+   #       - publication
+   #     exclude_featured: true
+   # design:
+   #   columns: '2'
+   #   view: citation
   - block: collection
     id: talks
     content:
@@ -67,11 +67,11 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+  # - block: tag_cloud
+  #  content:
+  #   title: Popular Topics
+  # design:
+  #   columns: '2'
   - block: collection
     id: achievements
     content:

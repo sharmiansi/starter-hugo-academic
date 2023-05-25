@@ -2,7 +2,7 @@
 title: Project 3
 summary: An example of using the in-built project page.
 tags:
-  - 
+  - Research
 date: '2023-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
