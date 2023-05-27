@@ -12,34 +12,34 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-      search: true  # Add this line to enable search
+  # block: portfolio
+   # id: projects
+    #content:
+     # title: Projects
+      #filters:
+       # folders:
+       #   - project
+      #search: true  # Add this line to enable search
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
+      #default_button_index: 0
       # Filter toolbar (optional).
       # Add or remove as many filters (`filter_button` instances) as you like.
       # To show all items, set `tag` to "*".
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Research
-          tag: Research
-        - name: Workshop
-          tag: Demo
-    design:
+      #buttons:
+       # - name: All
+        #  tag: '*'
+        #- name: Research
+        #  tag: Research
+        #- name: Workshop
+        #  tag: Demo
+    #design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
+     # columns: '1'
+     # view: showcase
       # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+     # flip_alt_rows: false
 
  
   # - block: collection
@@ -57,51 +57,51 @@ sections:
    # design:
    #   columns: '2'
    #   view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: showcase
+  #- block: collection
+  #  id: talks
+  #  content:
+  #    title: Recent & Upcoming Talks
+  #    filters:
+  #      folders:
+  #        - event
+  #  design:
+  #    columns: '2'
+  #    view: showcase
   # - block: tag_cloud
   #  content:
   #   title: Popular Topics
   # design:
   #   columns: '2'
-  - block: 
-    id: teaching
-    content:
-      title: Teaching
-      subtitle: Courses and supervised students
-      text: |
-        <p>Courses</p>
-        <h4>Course Name I</h4>
-        <p>Winter 2022/2023 <a href="#">Website</a></p>
-        <h4>Course Name II</h4>
-        <p>Winter 2022/2023 <a href="#">Website</a></p>
-        <br>
-        <p>Student supervision</p>
-        <h4>PhD theses</h4>
-        <p>&#x2022; test name</p>
-        <h4>Master’s Theses</h4>
-        <p>&#x2022; test name</p>
-    design:
-      columns: '2'
-      view: compact
-  - block: collection
-    id: achievements
-    content:
-      title: Achievements
-      filters:
-        folders:
-          - achievements
-    design:
-      columns: '1'
-      view: showcase
+  #- block: 
+  #  id: teaching
+  #  content:
+  #    title: Teaching
+  #    subtitle: Courses and supervised students
+  #    text: |
+  #      <p>Courses</p>
+  #      <h4>Course Name I</h4>
+  #      <p>Winter 2022/2023 <a href="#">Website</a></p>
+  #      <h4>Course Name II</h4>
+  #      <p>Winter 2022/2023 <a href="#">Website</a></p>
+  #      <br>
+  #      <p>Student supervision</p>
+  #      <h4>PhD theses</h4>
+  #      <p>&#x2022; test name</p>
+  #      <h4>Master’s Theses</h4>
+  #      <p>&#x2022; test name</p>
+  #  design:
+  #    columns: '2'
+  #    view: compact
+  #- block: collection
+  #  id: achievements
+  #  content:
+  #    title: Achievements
+  #    filters:
+  #      folders:
+  #        - achievements
+  #  design:
+  #    columns: '1'
+  #    view: showcase
   - block: contact
     id: contact
     content:

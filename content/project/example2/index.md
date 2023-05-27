@@ -1,6 +1,6 @@
 ---
 title: Project 2
-summary: An example of using the in-built project page.
+summary: An example of using the in-built project page.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin ecvolutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 tags:
   - Demo
 date: '2023-04-27T00:00:00Z'
